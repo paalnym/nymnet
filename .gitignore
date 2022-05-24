@@ -7,3 +7,9 @@
 /.vs/VSWorkspaceState.json
 /nymnet/.vs/nymnet/v17/.suo
 /nymnet/.vs/nymnet
+/nymnet/nymnetWASM/Client/bin/Debug/net6.0
+/nymnet/nymnetWASM/Client/obj
+/nymnet/nymnetWASM/Server/bin/Debug/net6.0
+/nymnet/nymnetWASM/Server/obj
+/nymnet/nymnetWASM/Shared/bin/Debug/net6.0
+/nymnet/nymnetWASM/Shared/obj

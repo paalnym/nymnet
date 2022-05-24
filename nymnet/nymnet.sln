@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nymnetWASM.Server", "nymnetWASM\Server\nymnetWASM.Server.csproj", "{2BB8E1CD-EB75-4B1F-AF7E-90F6B47A1D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nymnetWASM.Client", "nymnetWASM\Client\nymnetWASM.Client.csproj", "{447226BD-13B3-44B3-B3F2-7767C03DDE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nymnetWASM.Shared", "nymnetWASM\Shared\nymnetWASM.Shared.csproj", "{A4CACB0D-667B-4BC7-8A77-ACE9DEB33BC9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BB8E1CD-EB75-4B1F-AF7E-90F6B47A1D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB8E1CD-EB75-4B1F-AF7E-90F6B47A1D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB8E1CD-EB75-4B1F-AF7E-90F6B47A1D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB8E1CD-EB75-4B1F-AF7E-90F6B47A1D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447226BD-13B3-44B3-B3F2-7767C03DDE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447226BD-13B3-44B3-B3F2-7767C03DDE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447226BD-13B3-44B3-B3F2-7767C03DDE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447226BD-13B3-44B3-B3F2-7767C03DDE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CACB0D-667B-4BC7-8A77-ACE9DEB33BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CACB0D-667B-4BC7-8A77-ACE9DEB33BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CACB0D-667B-4BC7-8A77-ACE9DEB33BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CACB0D-667B-4BC7-8A77-ACE9DEB33BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
